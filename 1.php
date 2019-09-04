@@ -46,4 +46,4 @@ $biodata = [
     'interest_in_coding' => true
 ];
 
-print_r($biodata);
+echo json_encode($biodata);
